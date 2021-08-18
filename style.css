@@ -152,6 +152,41 @@ html {
     font-size: 0.75em;
 }
 
+.formbx {
+    display: flex;
+    justify-content: center;
+}
+
+.formbx label {
+    font-size: 1em;
+    color: #182541;
+    font-weight: 700;
+}
+
+.formbx input {
+    border: 2px solid #182541;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.formbx input::placeholder {
+    color: rgba(24, 37, 65, 0.7);
+}
+
+.formbx button {
+    border: none;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+.formbx button:hover {
+    background-color: #E51636;
+    padding: 0.3rem 0.2rem;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
 .footerbx {
     display: flex;
     justify-content: center;
